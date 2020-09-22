@@ -1,0 +1,22 @@
+.card-bem-estar {
+    background: transparent;
+    border-style: solid;
+    border-color: $primary_color;
+    border-width: 2px;
+
+    h1{
+        font-size: 5rem !important;
+        line-height: 5rem;
+        width: 100%;
+    }
+    .titulo {
+        color: $primary_color !important; 
+        font-family: $title-font, sans-serif !important;
+        font-weight: 900;
+        word-break: break-word;
+    }
+
+    .subtitle{
+        color: $primary_color !important;
+    }
+}
