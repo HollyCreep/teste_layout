@@ -1,1 +1,1 @@
-Meu Estoque Digital
+Replicando layout 
