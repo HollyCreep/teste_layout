@@ -179,7 +179,6 @@
       ...mapMutations({
         setStateLoading: 'SET_LOADING',
         setNotification: 'SET_NOTIFICATION',
-        login: 'SET_LOGIN',
       }),
     },
   }

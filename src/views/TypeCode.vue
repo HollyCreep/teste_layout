@@ -24,9 +24,6 @@
         error: null,
       }
     },
-    watch: {
-      $route: 'fetchData',
-    },
     mounted: function () {},
     created () {
       this.fetchData()
@@ -44,7 +41,7 @@
               this.setNotification({
                 snackbar: true, // toogle do snackbar de alerta
                 color: 'success', // cor do snackbarr
-                text: 'Lista importada com sucesso', // mensagem do snackbar
+                text: 'Dados carregados com sucesso', // mensagem do snackbar
                 timeout: 2000,
               })
             },

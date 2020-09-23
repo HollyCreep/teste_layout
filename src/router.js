@@ -15,6 +15,11 @@ const router = new Router({
       name: 'TypeCode',
       component: () => import('@/views/TypeCode.vue'),
     },
+    {
+      path: '/blog',
+      name: 'Blog',
+      component: () => import('@/views/Blog.vue'),
+    },
     // -------------------- 404 - Not Found --------------------
     {
       path: '*',

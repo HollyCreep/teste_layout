@@ -2,7 +2,7 @@
   <v-content>
     <base-imagem-container />
     <v-row
-      class="fill-height justify-sm-space-around mt-10"
+      class="justify-sm-space-around mt-10"
     >
       <v-col
         cols="12"
@@ -14,20 +14,7 @@
         <base-card-bem-estar />
         <div class="div-central mx-auto">
           <span class="headline orange--text">Pense nisso...</span>
-          <small>O quanto o diagnóstico de uma doença grave, internação, ou cirurgia inesperada pode afetar, hoje, sua vida pessoal e financeira?</small>
-        </div>
-        <div :class="`${$vuetify.breakpoint.smAndUp ? 'botao-blog' : 'w-100' }`">
-          <router-link to="/typecode">
-            <v-btn
-              color="primary"
-              tile
-              x-large
-              width="100%"
-              height="60px"
-            >
-              Blog
-            </v-btn>
-          </router-link>
+          <small class="texto-pequeno">O quanto o diagnóstico de uma doença grave, internação, ou cirurgia inesperada pode afetar, hoje, sua vida pessoal e financeira?</small>
         </div>
       </v-col>
       <v-col
@@ -41,15 +28,27 @@
         </div>
       </v-col>
     </v-row>
+    <blog
+      :limit="2"
+      :contain="true"
+    />
   </v-content>
 </template>
 
 <script>
   export default {
     name: 'Home',
+
+    components: {
+      Blog: () => import('@/views/Blog'),
+    },
   }
 </script>
 
 <style lang="scss" scoped>
-
+      .texto-pequeno {
+        color: $primary_color !important;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 900;
+      }
 </style>

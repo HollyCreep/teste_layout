@@ -1,8 +1,8 @@
 <template>
   <v-app>
     <router-view />
-
     <notification />
+    <core-footer />
 
     <loading />
   </v-app>
@@ -14,6 +14,7 @@
     components: {
       Notification: () => import('@/components/core/Notification'),
       Loading: () => import('@/components/core/Loading'),
+      CoreFooter: () => import('@/components/core/Footer'),
     },
   }
 </script>
