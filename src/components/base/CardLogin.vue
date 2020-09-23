@@ -148,10 +148,6 @@
         const result = await this.$refs.obs.validate()
         if (result) {
           this.loading = true
-          var data = {
-            email: this.email,
-            password: this.password,
-          }
           setTimeout(() => {
             this.limpaFormulario()
           }, 2000).bind(this)
