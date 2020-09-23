@@ -1,3 +1,3 @@
 Replicando layout 
 
-![Alt text](@/assetsbg-1.jpg?raw=true "Title")
+![Alt text](src/assetsbg-1.jpg?raw=true "Title")
