@@ -45,10 +45,10 @@
           name: 'TypeCode',
           path: '/typecode',
         },
-        {
-          name: 'About',
-          path: '/about',
-        },
+        // {
+        //   name: 'About',
+        //   path: '/about',
+        // },
       ],
     }),
   }
