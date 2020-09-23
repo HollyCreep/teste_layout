@@ -3,8 +3,10 @@
 
 
 Resolução do teste proposto de replicação do Layout
-
+### Layout Proposto
 ![Alt text](src/assets/layout.png?raw=true "Layout Proposto")
+
+### Resultado
 ![Alt text](src/assets/resultado.jpg?raw=true "Resultado")
 
 
